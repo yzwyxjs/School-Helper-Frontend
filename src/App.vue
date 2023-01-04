@@ -1,8 +1,11 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+<!--  <nav>-->
+<!--    <router-link to="/">Home</router-link> |-->
+<!--    <router-link to="/score-list">About</router-link>-->
+<!--  </nav>-->
+  <!--    <router-link to="/">Home</router-link> |-->
+  <router-link :to="{ name: 'ScoreList' }">Home</router-link> |
+
   <router-view/>
 </template>
 
